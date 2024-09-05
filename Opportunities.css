@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #644117;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .opportunities-table {
+    width: 30%;
+    border-collapse: collapse;
+    margin: 40px auto;
+    align-items: center;
+  }
+  
+  .opportunities-table th,
+  .opportunities-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .opportunities-table th {
+    background-color: #644117;
+    color: white;
+  }
+  
+  .opportunities-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .opportunities-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .opportunities-table th:nth-child(2), /* Select the description column header */
+  .opportunities-table td:nth-child(2) { /* Select the description column cells */
+    width: 40%; /* Increase the width of the description column */
+  }

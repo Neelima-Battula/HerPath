@@ -1,0 +1,68 @@
+/* opportunities.css */
+
+/* Header */
+#hello {
+  background-color: #644117;
+  color: white;
+}
+
+/* Sections */
+section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  background-color: transparent; /* Set background to transparent */
+}
+
+/* Welcome container */
+.welcome-container {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+/* Welcome text */
+.welcome-text {
+  flex: 1;
+  text-align: center; /* Align text to center */
+}
+
+/* Form */
+form {
+  margin-top: 1.5rem;
+  text-align: center; /* Align form elements to center */
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+select {
+  width: 90%;
+  height: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form#jobForm {
+  width: 70%;
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  color: #0c4f14;
+}

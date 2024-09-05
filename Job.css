@@ -1,0 +1,73 @@
+/* job.css */
+
+/* Header */
+#hello {
+  background-color: #644117;
+  color: white;
+}
+
+/* Sections */
+section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 1); /* White background with 50% transparency */
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Welcome container */
+.welcome-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+/* Welcome text */
+.welcome-text {
+  flex: 1;
+}
+
+/* Form */
+form {
+  margin-top: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+select {
+  width: 150px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form#jobForm {
+  width: 45%;
+  max-width: 80%;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  color: #0c4f14;
+}
+
+/* Background image */
+body {
+  background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/Vd3bj2jPe/videoblocks-surprised-woman-looking-computer-screen-indoor-excited-girl-chatting-on-laptop-computer-in-slow-motion-close-up-happy-businesswoman-closing-face-in-front-of-notebook-in-home-office_hkeobgddl_thumbnail-1080_01.png');
+  
+  background-size: cover; /* 70% width, maintain aspect ratio for height */
+
+}

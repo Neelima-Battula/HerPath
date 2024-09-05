@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(222, 217, 217);
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Sections */
+  section {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Welcome container */
+  .welcome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Welcome text */
+  .welcome-text {
+    flex: 1;
+  }
+  
+  /* Form */
+  form {
+    margin-top: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  select {
+    width: 150px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Results section */
+  #results {
+    display: none; /* Initially hidden */
+  }
+  
+  /* Matching results list */
+   #matchingResults {
+    list-style: none;
+    padding: 0;
+  } 
+  
+  #matchingResults li {
+    margin-bottom: 0.5rem;
+  }
