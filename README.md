@@ -1,0 +1,1 @@
+HerPath is a career guidance platform offering both job opportunities and student career resources. It connects users with tailored options based on education and skills, featuring dynamic filters and an intuitive interface. Developed with ReactJS and a robust database, it simplifies career exploration and empowers informed decision-making for students and professionals.
